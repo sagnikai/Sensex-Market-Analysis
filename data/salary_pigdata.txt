@@ -1,0 +1,31 @@
+M,29,80000,543400
+M,30,78789,767679
+F,32,45000,746288
+F,34,54444,444333
+F,36,90000,230000
+F,45,30000,932323
+M,60,99999,333222
+M,28,44929,837635
+
+Working with Datatypes
+======================
+salary = LOAD 'salary.txt' using PigStorage(',') AS (gender,age,salary,zipcode);
+
+DUMP salary;
+
+describe salary;
+
+salary = LOAD 'salary.txt' using PigStorage(',') AS (gender:chararray,age:int,salary:int,zipcode:int);
+
+DUMP salary;
+
+describe salary;
+
+Using LIMIT
+===========
+limit_salary = LIMIT salary 3;
+
+DUMP limit_salary;
+
+
+ 
