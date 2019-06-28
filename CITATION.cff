@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Mukherjee"
+    given-names: "Sagnik"
+    email: "52891096+sagnikai@users.noreply.github.com"
+title: "Big Data Analytics Framework for Sensex Market Analysis"
+version: 1.0.0
+date-released: 2019-06-28
+url: "https://github.com/sagnikai/Sensex-Market-Analysis"
